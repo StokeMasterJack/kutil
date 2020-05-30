@@ -1,6 +1,7 @@
 package ss.kutil
 
 import kotlin.reflect.KClass
+import kotlin.test.asserter
 import kotlin.test.fail
 
 fun <T : Exception> assThrows(block: () -> Unit) {
@@ -43,4 +44,14 @@ fun <T : Exception> assThrows(expectedExceptionType: KClass<T>, expectedExceptio
             fail(m2())
         }
     }
+}
+
+@ExperimentalUnsignedTypes
+fun assEquals(expected: UInt, actual: UInt, message: String? = null) {
+    asserter.assertEquals(message, expected.toInt(), actual.toInt())
+}
+
+@ExperimentalUnsignedTypes
+fun assEquals(expected: Int, actual: UInt, message: String? = null) {
+    asserter.assertEquals(message, expected, actual.toInt())
 }
