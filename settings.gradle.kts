@@ -1,13 +1,10 @@
 pluginManagement {
     repositories {
-//        maven("https://dl.bintray.com/kotlin/kotlin-eap")
-
-        maven("https://plugins.gradle.org/m2/")
-        maven("https://repo1.maven.org/maven2/")
-
-        mavenLocal()
+//        mavenLocal()
         jcenter()
         mavenCentral()
+        maven("https://plugins.gradle.org/m2/")
+        maven("https://repo1.maven.org/maven2/")
     }
 }
 rootProject.name = "kutil"
