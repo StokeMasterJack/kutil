@@ -1,0 +1,116 @@
+# security related stuff
+*.pem
+clean-install.conf
+
+# generated - spa.jsp and tc/index.jsp
+war/src/main/webapp/tc/index.jsp
+war/src/main/webapp/spa.jsp
+
+
+tout/
+tout-babel/
+*.tsbuildinfo
+
+# tmp and scratch files
+tmp/
+tmp.js
+tmp.xml
+tmp.html
+tmp.java
+tmp.sql
+scratch/
+
+# OS generated files - OS X
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Icon
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# OS generated files - Windows
+ehthumbs.db
+Thumbs.db
+
+# generated files - java/kotlin
+*.class
+*.jar
+*.war
+*.ear
+
+# generated files - dart
+.dart_tool/
+.packages
+.pub/
+build/
+pubspec.lock
+doc/api/
+
+# generated files - windows 
+*.com
+*.dll
+*.exe
+
+# generated files - linux/unix 
+*.o
+*.so
+
+# generated files - maven
+target/
+*.ser
+*.ec
+
+# React
+node_modules/
+react/node_modules/
+webpackCache/
+.tmp
+.sass-cache
+
+# Bower
+bower_components/
+
+# package/zip files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sqlite
+
+
+# IntelliJ - Generated files
+.idea/**/contentModel.xml
+out/
+
+classes/
+
+# intellij - maven redundant
+.idea/libraries/
+.idea/*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+
+war/src/main/java/com/ramko/fileUpload/
+
+*.iml
+.gradle
+/local.properties
+/.idea
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
